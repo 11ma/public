@@ -40,6 +40,35 @@ const nutritionDB = {
 Here is a possible script to test your functions:
 
 ```js
+const nutritionDBExample = {
+  orange: {
+    calories: 245,
+    protein: 4.5,
+    carbs: 65,
+    sugar: 45,
+    fiber: 1,
+    fat: 0.5
+  },
+  oil: {
+    calories: 9.6,
+    protein: 0,
+    carbs: 0,
+    sugar: 24.6,
+    fiber: 0,
+    fat: 30.2
+  },
+  sugar: {
+    calories: 1857.6,
+    protein: 0,
+    carbs: 480,
+    sugar: 480,
+    fiber: 0,
+    fat: 0
+  }
+}
+```
+
+```js
 const groceriesCart = { orange: 500, oil: 20, sugar: 480 }
 
 console.log('Total calories:')
